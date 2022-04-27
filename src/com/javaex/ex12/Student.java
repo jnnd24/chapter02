@@ -4,7 +4,7 @@ public class Student extends Person {
 	
 	
 	//필드
-	private String choolName;
+	private String schoolName;
 
 
 	
@@ -14,26 +14,26 @@ public class Student extends Person {
 	public Student() {
 	}
 	
-	public Student(String choolName) {
-		this.choolName = choolName;
+	public Student(String schoolName) {
+		this.schoolName = schoolName;
 	}
 
 
 	//메소드 gs
 	public String getChoolName() {
-		return choolName;
+		return schoolName;
 	}
 
 
-	public void setChoolName(String choolName) {
-		this.choolName = choolName;
+	public void setChoolName(String schoolName) {
+		this.schoolName = schoolName;
 	}
 
 	
 	//메소드 일반
 	@Override
 	public String toString() {
-		return "Student [choolName=" + choolName + "]";
+		return "Student [schoolName=" + schoolName + "]";
 	}
 	
 	
