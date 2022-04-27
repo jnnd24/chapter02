@@ -16,17 +16,19 @@ public class GoodsApp {
 		cup.setName("머그컵");
 		cup.setPrice(2000);
 		
-		System.out.println("상품이름: " + camera.getName() + " 상품가격: " + camera.getPrice());
+		//System.out.println("상품이름: " + camera.getName() + " 상품가격: " + camera.getPrice());
 		
 		
-		String camName = camera.getName();
-		System.out.println(camName);
+		//String camName = camera.getName();
+		//System.out.println(camName);
 		//System.out.println(camera.name);
 		
-		int camPrice = camera.getPrice();
-		System.out.println(camPrice);
-		
+		//int camPrice = camera.getPrice();
+		//System.out.println(camPrice);
+
 		camera.showinfo();
+		computer.showinfo();
+		cup.showinfo();
 		
 		
 		
