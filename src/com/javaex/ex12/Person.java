@@ -3,18 +3,18 @@ package com.javaex.ex12;
 public class Person {
 	
 	//필드
-	private String name;
-	private int age;
-	
-	
+	protected String name;
+	protected int age;
 	
 	
 	//생성자
+	public Person() {
+		System.out.println("Person()");
+	}
 	public Person(String name, int age) {
 		this.name = name;
 		this.age = age;
-	}
-	public Person() {
+		System.out.println("Person(2)");
 	}
 	
 	//메소드 gs
