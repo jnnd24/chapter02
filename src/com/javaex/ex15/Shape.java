@@ -9,9 +9,11 @@ public class Shape {
 	
 	//생성자
 	public Shape() {
+		System.out.println("Shape()");
 	}
 	
 	public Shape(String fillColor, String lineColor) {
+		System.out.println("Shape(2)");
 		this.fillColor = fillColor;
 		this.lineColor = lineColor;
 	}
