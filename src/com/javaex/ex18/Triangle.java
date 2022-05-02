@@ -1,6 +1,6 @@
-package com.javaex.ex15;
+package com.javaex.ex18;
 
-public class Triangle extends Shape {
+public class Triangle extends Shape implements Drawable{
 	
 	private int width;
 	private int height;
@@ -48,6 +48,10 @@ public class Triangle extends Shape {
 				+ lineColor + "]인 삼각형을 그렸습니다.");
 	}
 	
+	public double area() {
+		double area = width * height / 2;
+		return area;
+	}
 	
 	
 	
